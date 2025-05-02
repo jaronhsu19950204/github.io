@@ -1,0 +1,7 @@
+<meta charset="utf-8">
+<?php
+$conn = new mysqli("localhost", "root", "", "movie_db");
+if ($conn->connect_error) {
+    die("連線失敗：" . $conn->connect_error);
+}
+?>
